@@ -1,0 +1,4234 @@
+{
+  "schema_version": 2,
+  "title": "原油观察日报 2026-09-02",
+  "report_date": "2026-09-02",
+  "generated_at": "2026-09-02T19:48:39+08:00",
+  "timezone": "Asia/Shanghai",
+  "window_hours": 24,
+  "window_start": "2026-09-01T19:48:39+08:00",
+  "min_score": 3,
+  "prices": {
+    "WTI": {
+      "date": "2026-09-02T07:42:54.000-0400",
+      "close": 89.58,
+      "prev_close": null,
+      "change": -0.64,
+      "pct_change": -0.71,
+      "source": "CNBC 期货实时（WTI Crude (Oct'26)）",
+      "error": null
+    },
+    "Brent": {
+      "date": "2026-09-02T12:42:58.000+0100",
+      "close": 94.16,
+      "prev_close": null,
+      "change": -0.49,
+      "pct_change": -0.52,
+      "source": "CNBC 期货实时（ICE Brent Crude (Nov'26)）",
+      "error": null
+    },
+    "fetched_at": "2026-09-02T11:52:59Z",
+    "source": "CNBC 期货实时（ICE Brent Crude (Nov'26)） / CNBC 期货实时（WTI Crude (Oct'26)）"
+  },
+  "accounts_total": 35,
+  "media_total": 30,
+  "institutions_total": 14,
+  "source_status": [
+    {
+      "source": "X API",
+      "ok": false,
+      "detail": "未配置 X_BEARER_TOKEN，跳过官方 X 抓取（详见 X_TOKEN配置指南.md）"
+    },
+    {
+      "source": "media 汇总",
+      "ok": true,
+      "detail": "8/30 个源可用，共取得 220 条"
+    },
+    {
+      "source": "media:BBC News",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='feeds.bbci.co.uk', port=443): R；ReadTimeout: HTTPSConnectionPool(host='feeds.bbci.co.uk', port=443): R"
+    },
+    {
+      "source": "media:The New York Times",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='rss.nytimes.com', port=443): Re；ReadTimeout: HTTPSConnectionPool(host='rss.nytimes.com', port=443): Re"
+    },
+    {
+      "source": "media:CNN",
+      "ok": false,
+      "detail": "HTTP 502；HTTP 502"
+    },
+    {
+      "source": "media:The Guardian",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='www.theguardian.com', port=443)；ReadTimeout: HTTPSConnectionPool(host='www.theguardian.com', port=443)"
+    },
+    {
+      "source": "media:Associated Press",
+      "ok": false,
+      "detail": "ProxyError: HTTPSConnectionPool(host='feeds.apnews.com', port=443): Ma；ProxyError: HTTPSConnectionPool(host='feeds.apnews.com', port=443): Ma"
+    },
+    {
+      "source": "media:Washington Post",
+      "ok": true,
+      "detail": "11 条窗口内内容"
+    },
+    {
+      "source": "media:Reuters",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re；ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "media:Al Jazeera English",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='www.aljazeera.com', port=443): "
+    },
+    {
+      "source": "media:Bloomberg",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='feeds.bloomberg.com', port=443)；ReadTimeout: HTTPSConnectionPool(host='feeds.bloomberg.com', port=443)"
+    },
+    {
+      "source": "media:CNBC",
+      "ok": true,
+      "detail": "37 条窗口内内容"
+    },
+    {
+      "source": "media:Financial Times",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='www.ft.com', port=443): Read ti；ReadTimeout: HTTPSConnectionPool(host='www.ft.com', port=443): Read ti"
+    },
+    {
+      "source": "media:The Wall Street Journal",
+      "ok": true,
+      "detail": "0 条窗口内内容"
+    },
+    {
+      "source": "media:The Economist",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='www.economist.com', port=443): ；ReadTimeout: HTTPSConnectionPool(host='www.economist.com', port=443): "
+    },
+    {
+      "source": "media:NPR",
+      "ok": true,
+      "detail": "9 条窗口内内容"
+    },
+    {
+      "source": "media:Politico",
+      "ok": false,
+      "detail": "HTTP 403；HTTP 403"
+    },
+    {
+      "source": "media:The Hill",
+      "ok": true,
+      "detail": "100 条窗口内内容"
+    },
+    {
+      "source": "media:Axios",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='api.axios.com', port=443): Read"
+    },
+    {
+      "source": "media:USA Today",
+      "ok": false,
+      "detail": "HTTP 403；HTTP 403"
+    },
+    {
+      "source": "media:Fox News",
+      "ok": true,
+      "detail": "25 条窗口内内容"
+    },
+    {
+      "source": "media:NBC News",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='feeds.nbcnews.com', port=443): ；ReadTimeout: HTTPSConnectionPool(host='feeds.nbcnews.com', port=443): "
+    },
+    {
+      "source": "media:DW 德国之声",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='rss.dw.com', port=443): Read ti；ReadTimeout: HTTPSConnectionPool(host='rss.dw.com', port=443): Read ti"
+    },
+    {
+      "source": "media:France 24",
+      "ok": true,
+      "detail": "27 条窗口内内容"
+    },
+    {
+      "source": "media:NHK World Japan",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='www3.nhk.or.jp', port=443): Rea"
+    },
+    {
+      "source": "media:Nikkei Asia",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='asia.nikkei.com', port=443): Re；ReadTimeout: HTTPSConnectionPool(host='asia.nikkei.com', port=443): Re"
+    },
+    {
+      "source": "media:Sky News",
+      "ok": true,
+      "detail": "11 条窗口内内容"
+    },
+    {
+      "source": "media:The Telegraph",
+      "ok": false,
+      "detail": "HTTP 402；HTTP 402"
+    },
+    {
+      "source": "media:CBC News",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='www.cbc.ca', port=443): Read ti；ReadTimeout: HTTPSConnectionPool(host='www.cbc.ca', port=443): Read ti"
+    },
+    {
+      "source": "media:ABC News Australia",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='www.abc.net.au', port=443): Rea"
+    },
+    {
+      "source": "media:Times of India",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='timesofindia.indiatimes.com', p；ReadTimeout: HTTPSConnectionPool(host='timesofindia.indiatimes.com', p"
+    },
+    {
+      "source": "media:South China Morning Post",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='www.scmp.com', port=443): Read ；ReadTimeout: HTTPSConnectionPool(host='www.scmp.com', port=443): Read "
+    },
+    {
+      "source": "institution 汇总",
+      "ok": true,
+      "detail": "4/14 个源可用，共取得 10 条"
+    },
+    {
+      "source": "institution:OPEC 石油输出国组织",
+      "ok": false,
+      "detail": "HTTP 403；ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:IEA 国际能源署",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:EIA 美国能源信息署",
+      "ok": true,
+      "detail": "1 条窗口内内容"
+    },
+    {
+      "source": "institution:IMF 国际货币基金组织",
+      "ok": false,
+      "detail": "HTTP 403；ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:World Bank 世界银行",
+      "ok": false,
+      "detail": "ProxyError: HTTPSConnectionPool(host='feeds.worldbank.org', port=443):；ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:Federal Reserve 美联储",
+      "ok": true,
+      "detail": "0 条窗口内内容"
+    },
+    {
+      "source": "institution:ECB 欧洲央行",
+      "ok": true,
+      "detail": "1 条窗口内内容"
+    },
+    {
+      "source": "institution:Bank of Japan 日本央行",
+      "ok": false,
+      "detail": "HTTP 404；ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:White House 白宫",
+      "ok": false,
+      "detail": "HTTP 404；ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:US State Department 国务院",
+      "ok": false,
+      "detail": "ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:US Treasury 财政部",
+      "ok": false,
+      "detail": "HTTP 404；ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:NATO 北约",
+      "ok": false,
+      "detail": "HTTP 404；ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:IAEA 国际原子能机构",
+      "ok": false,
+      "detail": "HTTP 403；ReadTimeout: HTTPSConnectionPool(host='news.google.com', port=443): Re"
+    },
+    {
+      "source": "institution:EU Commission 欧盟委员会",
+      "ok": true,
+      "detail": "8 条窗口内内容"
+    },
+    {
+      "source": "公共聚合",
+      "ok": true,
+      "detail": "16 条聚合条目"
+    }
+  ],
+  "item_count": 95,
+  "section_counts": {
+    "A 能源市场": 35,
+    "B 战争与地缘": 56,
+    "C 宏观经济": 4,
+    "D 政治政策": 0
+  },
+  "group_counts": {
+    "核心油价": 13,
+    "供需产量": 15,
+    "战争冲突": 44,
+    "航运油轮": 2,
+    "制裁与地缘": 12,
+    "库存炼厂": 3,
+    "需求消费": 2,
+    "经济金融": 4
+  },
+  "type_counts": {
+    "media": 92,
+    "institution": 3
+  },
+  "top_outlets": [
+    [
+      "The Hill",
+      35
+    ],
+    [
+      "France 24",
+      14
+    ],
+    [
+      "CNBC",
+      12
+    ],
+    [
+      "OilPrice.com",
+      11
+    ],
+    [
+      "Fox News",
+      9
+    ],
+    [
+      "Washington Post",
+      7
+    ],
+    [
+      "NPR",
+      3
+    ],
+    [
+      "EU Commission 欧盟委员会",
+      2
+    ],
+    [
+      "EIA 美国能源信息署",
+      1
+    ],
+    [
+      "Sky News",
+      1
+    ]
+  ],
+  "items": [
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-news-45379",
+      "created_at": "2026-09-02T06:00:00+00:00",
+      "text": "U.S. Energy Secretary Says Venezuela Could More Than Double Oil Production\nVenezuela’s crude oil production rate could double in the next few years thanks to new deals set to be signed with U.S. and other foreign energy companies, U.S. Energy Secretary Chris Wright has said. “The investment in these deals will massively grow available oil production, which will give downward pressure on oil prices, but the biggest kink right now in gasoline and diesel prices is refining capacity,” Wright said during a one-day visit to Caracas, as quoted by Reuters. Venezuela’s peak oil",
+      "title": "U.S. Energy Secretary Says Venezuela Could More Than Double Oil Production",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Energy-Secretary-Says-Venezuela-Could-More-Than-Double-Oil-Production.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 15,
+      "groups": [
+        "核心油价",
+        "供需产量",
+        "库存炼厂",
+        "需求消费",
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "核心油价": [
+          "crude",
+          "oil price",
+          "crude oil"
+        ],
+        "供需产量": [
+          "production"
+        ],
+        "库存炼厂": [
+          "refining"
+        ],
+        "需求消费": [
+          "diesel"
+        ],
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "venezuela"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 14:00"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-article-45383",
+      "created_at": "2026-09-02T03:53:42+00:00",
+      "text": "Oil Prices Rally as U.S. Targets Iranian Tankers in New Escalation\nOil prices climbed once again in early Asian trade on Wednesday as the U.S. and Iran traded strikes in a significant escalation after a month of relative calm.  At the time of writing, WTI had climbed to $91.05 per barrel, trading 0.92% higher on the session, and Brent had risen 1.19% to trade at $95.68. Both benchmarks have now climbed by roughly $5 since hostilities between the two countries renewed. U.S. Central Command (Centcom) reported that it had completed a wave of strikes against “air d",
+      "title": "Oil Prices Rally as U.S. Targets Iranian Tankers in New Escalation",
+      "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rally-as-US-Targets-Iranian-Tankers-in-New-Escalation.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 14,
+      "groups": [
+        "核心油价",
+        "航运油轮",
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "核心油价": [
+          "brent",
+          "wti",
+          "barrel",
+          "oil price"
+        ],
+        "航运油轮": [
+          "tanker"
+        ],
+        "战争冲突": [
+          "strike",
+          "escalat"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "iranian"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 11:53"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-news-45380",
+      "created_at": "2026-09-02T07:15:00+00:00",
+      "text": "Hormuz Shipping Slumps as U.S.-Iran Strikes Rattle Oil Markets\nThe number of tankers traversing the Strait of Hormuz remains below the ten-day average, according to ship-trackers, with Kpler reporting only four tanker crossings for Tuesday. That is below a ten-day average of 13 tankers, Reuters reported earlier today. Windward, meanwhile, reported four tankers entering the strait, two of them in dark mode, and three exiting on Tuesday, one of them in dark mode. Earlier this week, U.S. Energy Secretary Chris Wright said a total of 17 million barrels of crude",
+      "title": "Hormuz Shipping Slumps as U.S.-Iran Strikes Rattle Oil Markets",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Slumps-as-US-Iran-Strikes-Rattle-Oil-Markets.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 14,
+      "groups": [
+        "核心油价",
+        "航运油轮",
+        "战争冲突",
+        "制裁与地缘",
+        "经济金融"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘",
+        "C 宏观经济"
+      ],
+      "hits": {
+        "核心油价": [
+          "crude",
+          "barrel"
+        ],
+        "航运油轮": [
+          "tanker",
+          "shipping"
+        ],
+        "战争冲突": [
+          "war",
+          "strike"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "hormuz"
+        ],
+        "经济金融": [
+          "ppi"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 15:15"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-news-45382",
+      "created_at": "2026-09-02T09:45:00+00:00",
+      "text": "Diesel Cracks Hit Record Highs as Global Fuel Squeeze Deepens\nThe re-escalation in the Middle East and the Russian ban on diesel exports amid incessant Ukrainian drone attacks on refineries have pushed middle distillate cracks to record highs this week. The renewed exchange of strikes in and around the Strait of Hormuz has erased hopes of a swift recovery of oil product flows from the Middle East, leaving the diesel markets tight, ING’s commodities strategists Warren Patterson and Ewa Manthey wrote in a note early on Wednesday. The market tightness is most",
+      "title": "Diesel Cracks Hit Record Highs as Global Fuel Squeeze Deepens",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Cracks-Hit-Record-Highs-as-Global-Fuel-Squeeze-Deepens.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 14,
+      "groups": [
+        "供需产量",
+        "库存炼厂",
+        "需求消费",
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "供需产量": [
+          "exports"
+        ],
+        "库存炼厂": [
+          "distillate"
+        ],
+        "需求消费": [
+          "diesel"
+        ],
+        "战争冲突": [
+          "war",
+          "strike",
+          "drone attack",
+          "escalat"
+        ],
+        "制裁与地缘": [
+          "russia",
+          "hormuz"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 17:45"
+    },
+    {
+      "source_type": "media",
+      "via": "Fox News",
+      "account": "Fox News",
+      "account_url": "https://www.foxnews.com",
+      "id": "https://www.foxnews.com/world/trump-says-iran-dead-experts-point-real-sign-tehran-nearing-brink",
+      "created_at": "2026-09-01T10:00:12+00:00",
+      "text": "Trump says Iran is ‘DEAD’ — experts point to the real sign Tehran is nearing the brink\nU.S. strikes on Iranian launchers near the Strait of Hormuz triggered ballistic missile retaliation as Brent crude climbed above $90 a barrel Monday.",
+      "title": "Trump says Iran is ‘DEAD’ — experts point to the real sign Tehran is nearing the brink",
+      "url": "https://www.foxnews.com/world/trump-says-iran-dead-experts-point-real-sign-tehran-nearing-brink",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 12,
+      "groups": [
+        "核心油价",
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "核心油价": [
+          "crude",
+          "brent",
+          "barrel"
+        ],
+        "战争冲突": [
+          "strike",
+          "missile"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "iranian",
+          "hormuz"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-01 18:00"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-news-45377",
+      "created_at": "2026-09-01T20:30:00+00:00",
+      "text": "U.S. Shale Producers Lose Bid to Kill Oil Price-Fixing Case\nA federal judge has allowed antitrust lawsuits accusing some of the biggest U.S. shale producers of coordinating production cuts to keep oil and fuel prices higher to proceed. U.S. District Judge Matthew Garcia in New Mexico rejected efforts by Diamondback Energy, Occidental Petroleum and other producers to dismiss the consolidated litigation. The lawsuits, filed beginning in 2024, allege that producers restrained shale output and ultimately pushed up prices for crude oil, gasoline, diesel and h",
+      "title": "U.S. Shale Producers Lose Bid to Kill Oil Price-Fixing Case",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Shale-Producers-Lose-Bid-to-Kill-Oil-Price-Fixing-Case.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 12,
+      "groups": [
+        "核心油价",
+        "供需产量",
+        "需求消费"
+      ],
+      "sections": [
+        "A 能源市场"
+      ],
+      "hits": {
+        "核心油价": [
+          "crude",
+          "oil price",
+          "crude oil"
+        ],
+        "供需产量": [
+          "production",
+          "output",
+          "production cut",
+          "shale"
+        ],
+        "需求消费": [
+          "diesel"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 04:30"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/policy/international/6064459-zelensky-russia-airspace-ukraine-war-unsafe/",
+      "created_at": "2026-09-01T21:15:38+00:00",
+      "text": "Zelensky warns airlines Russia’s sky ‘completely unsafe’\nUkrainian President Volodymyr Zelensky warned airlines on Tuesday against flying into Russian airspace as his military responds to an “escalation” in missile and drone attacks. Zelensky said in an evening address that Russia has recently changed its defense tactics, focusing on strikes from Ukrainian airspace. After the most recent wave of attacks, the Ukrainian president…",
+      "title": "Zelensky warns airlines Russia’s sky ‘completely unsafe’",
+      "url": "https://thehill.com/policy/international/6064459-zelensky-russia-airspace-ukraine-war-unsafe/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 10,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war",
+          "strike",
+          "missile",
+          "drone attack",
+          "military",
+          "escalat"
+        ],
+        "制裁与地缘": [
+          "russia"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 05:15"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6062462-live-updates-trump-energy-iran-house/",
+      "created_at": "2026-09-01T16:59:47+00:00",
+      "text": "Live updates: House approves funding to avoid shutdown; US strikes Iran targets\nU.S. Central Command announced Tuesday afternoon on X that the military had started striking Islamic Revolutionary Guard Corps (IRGC) targets following “recent attempted attacks by the IRGC against commercial shipping in the Strait of Hormuz and against American service members deployed to the region.” As House Speaker Mike Johnson tries to get through a legislative…",
+      "title": "Live updates: House approves funding to avoid shutdown; US strikes Iran targets",
+      "url": "https://thehill.com/homenews/administration/6062462-live-updates-trump-energy-iran-house/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 9,
+      "groups": [
+        "航运油轮",
+        "战争冲突",
+        "制裁与地缘",
+        "经济金融"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘",
+        "C 宏观经济"
+      ],
+      "hits": {
+        "航运油轮": [
+          "shipping"
+        ],
+        "战争冲突": [
+          "strike",
+          "military"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "hormuz"
+        ],
+        "经济金融": [
+          "ppi"
+        ]
+      },
+      "primary_group": "航运油轮",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 00:59"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-news-45376",
+      "created_at": "2026-09-01T19:30:00+00:00",
+      "text": "Bessent Says Strait of Hormuz Obsolete Within Two Years\nTreasury Secretary Scott Bessent says Gulf oil producers could bypass the Strait of Hormuz within two years, putting a remarkably short timetable on a pipeline buildout that has accelerated since the Iran war disrupted one of the world’s busiest oil routes. “That will be bypassed in two years,” Bessent said Tuesday during a discussion with Larry Kudlow at the G20 financial meetings in Asheville, North Carolina. He went further, predicting that “the Strait of Hormuz will be like a worthless piece",
+      "title": "Bessent Says Strait of Hormuz Obsolete Within Two Years",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Bessent-Says-Strait-of-Hormuz-Obsolete-Within-Two-Years.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 9,
+      "groups": [
+        "供需产量",
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "供需产量": [
+          "pipeline"
+        ],
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "hormuz"
+        ],
+        "政治政策": [
+          "g20",
+          "g20"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 03:30"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/tv-shows/business/20260901-global-bond-selloff-deepens-as-us-launches-fresh-attacks-on-iran",
+      "created_at": "2026-09-01T20:56:44+00:00",
+      "text": "Global bond selloff deepens as US launches fresh attacks on Iran\nOil prices rose, stocks fell and bond yields spiked after the US launched fresh attacks on Iranian targets. Japan's 10-year bond yield hit 3 percent for the first time since 1996. The deepening global selloff comes amid fears over rising inflation and concern over mounting government debt, which in the US has risen above $40 trillion. Meanwhile, in the single-currency eurozone, inflation rose to the highest level in three years in August, driven by higher energy prices.",
+      "title": "Global bond selloff deepens as US launches fresh attacks on Iran",
+      "url": "https://www.france24.com/en/tv-shows/business/20260901-global-bond-selloff-deepens-as-us-launches-fresh-attacks-on-iran",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 9,
+      "groups": [
+        "核心油价",
+        "制裁与地缘",
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘",
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "核心油价": [
+          "oil price"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "iranian"
+        ],
+        "经济金融": [
+          "inflation",
+          "bond yield"
+        ],
+        "政治政策": [
+          "government"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 04:56"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-article-45382",
+      "created_at": "2026-09-02T00:00:00+00:00",
+      "text": "Saudi Arabia Plans To Free 1 Mb/d As it Invests in Nuclear Power\nSaudi Arabia’s power stations, desalination plants, factories and farms consume more than 1 million barrels per day of liquid fuel that the kingdom aims to displace by 2030. Natural gas and renewables will provide most of the replacement energy. Nuclear power could reduce domestic oil consumption further after 2030 as electricity demand continues to grow. On July 22, the United States and Saudi Arabia signed a 30-year civil nuclear cooperation agreement, clearing the way for U.S. companies to po",
+      "title": "Saudi Arabia Plans To Free 1 Mb/d As it Invests in Nuclear Power",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Saudi-Arabia-Plans-To-Free-1-Mbd-As-it-Invests-in-Nuclear-Power.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 9,
+      "groups": [
+        "核心油价",
+        "需求消费",
+        "天然气与成品油",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "核心油价": [
+          "barrel"
+        ],
+        "需求消费": [
+          "demand",
+          "consumption"
+        ],
+        "天然气与成品油": [
+          "natural gas"
+        ],
+        "制裁与地缘": [
+          "saudi"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 08:00"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-news-45383",
+      "created_at": "2026-09-02T11:00:00+00:00",
+      "text": "Qatar and UAE Turn to Rare LNG Ship Transfers as Hormuz Crisis Drags On\nThree LNG carriers loaded from Qatar and the United Arab Emirates in the Persian Gulf have transferred their cargoes onto other vessels outside the Strait of Hormuz in the past month, a move that’s highly unusual for LNG cargoes but one that could raise the crippled LNG shipments from the region. LNG traffic at the Strait of Hormuz nevertheless remains at a standstill, even though oil flows are estimated to have rebounded in recent weeks. However, unlike crude oil, it’s much more difficult to sh",
+      "title": "Qatar and UAE Turn to Rare LNG Ship Transfers as Hormuz Crisis Drags On",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-and-UAE-Turn-to-Rare-LNG-Ship-Transfers-as-Hormuz-Crisis-Drags-On.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 9,
+      "groups": [
+        "核心油价",
+        "供需产量",
+        "天然气与成品油",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "核心油价": [
+          "crude",
+          "crude oil"
+        ],
+        "供需产量": [
+          "cargo"
+        ],
+        "天然气与成品油": [
+          "lng"
+        ],
+        "制裁与地缘": [
+          "hormuz"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 19:00"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-news-45378",
+      "created_at": "2026-09-01T20:56:27+00:00",
+      "text": "U.S. Crude Inventories Drop amid Continued SPR Draws\nThe American Petroleum Institute (API) estimated that crude oil inventories in the United States fell 2.6 million barrels in the week ending August 28. In the week prior, US crude oil inventories rose by 4.2 million barrels. Commercial crude oil inventories excluding the SPR have lost just over 48 million barrels over the last twenty weeks, with US crude inventories up 3.1 million for the year, according to API data, kept in check by draws from the SPR. For week ending August 28, another 3.1 mil",
+      "title": "U.S. Crude Inventories Drop amid Continued SPR Draws",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Inventories-Drop-amid-Continued-SPR-Draws.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 8,
+      "groups": [
+        "核心油价",
+        "库存炼厂"
+      ],
+      "sections": [
+        "A 能源市场"
+      ],
+      "hits": {
+        "核心油价": [
+          "crude",
+          "barrel",
+          "crude oil"
+        ],
+        "库存炼厂": [
+          "inventories",
+          "spr"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 04:56"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/02/brent-oil-us-iran-strikes.html",
+      "created_at": "2026-09-02T08:50:20+00:00",
+      "text": "U.S. crude tops $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain\nOil were volatile Wednesday, as Mideast tensions continue to escalate after the U.S. attacked Iran, while Tehran reportedly struck back at U.S. allies.",
+      "title": "U.S. crude tops $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain",
+      "url": "https://www.cnbc.com/2026/09/02/brent-oil-us-iran-strikes.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 8,
+      "groups": [
+        "核心油价",
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "核心油价": [
+          "crude"
+        ],
+        "战争冲突": [
+          "strike",
+          "escalat"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 16:50"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/tv-shows/business/20260902-us-energy-secretary-vows-oil-output-will-double-on-visit-to-venezuela",
+      "created_at": "2026-09-02T09:17:57+00:00",
+      "text": "US energy secretary vows oil output will double on visit to Venezuela\nUS Energy Secretary Chris Wright landed in Venezuela on Tuesday ahead of a signing ceremony for a landmark oil deal between the US government and Venezuela. The deal would see the US create and control a private company that will hold 65 billion barrels in proven oil reserves. This agreement is also meant to encourage other US energy firms to invest in the country, in spite of serious challenges. In this edition, we see what other deals could be announced and what those challenges are.",
+      "title": "US energy secretary vows oil output will double on visit to Venezuela",
+      "url": "https://www.france24.com/en/tv-shows/business/20260902-us-energy-secretary-vows-oil-output-will-double-on-visit-to-venezuela",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 8,
+      "groups": [
+        "核心油价",
+        "供需产量",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "核心油价": [
+          "barrel"
+        ],
+        "供需产量": [
+          "output"
+        ],
+        "制裁与地缘": [
+          "venezuela"
+        ],
+        "政治政策": [
+          "government"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 17:17"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/policy/international/6063150-europans-oppose-russian-g20-invite/",
+      "created_at": "2026-09-01T14:12:38+00:00",
+      "text": "Europe blasts Russian finance minister’s attendance at Asheville G20\nEuropean financial officials pushed back on the U.S. decision to invite Russia’s finance minister to the G20 finance meeting in Asheville, N.C., this week. The European officials expressed concern that the Russian Finance Minister Anton Siluanov’s presence at the summit of the world’s 20 largest economies risked normalizing ties with Moscow amid its full-scale war…",
+      "title": "Europe blasts Russian finance minister’s attendance at Asheville G20",
+      "url": "https://thehill.com/policy/international/6063150-europans-oppose-russian-g20-invite/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 7,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "russia"
+        ],
+        "政治政策": [
+          "summit",
+          "g20",
+          "g20"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 22:12"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/video-clips/6063178-watch-live-house-democrats-press-conference-key-votes-cr-iran/",
+      "created_at": "2026-09-01T14:17:09+00:00",
+      "text": "Watch live: House Dems give remarks amid race to avert shutdown, Iran war turmoil\nHouse Democratic leaders will give remarks Tuesday as lawmakers face a packed week of legislative business, with the war with Iran, affordability concerns and the looming government shutdown among the issues expected to take center stage. The remarks come as Congress also races to fund the government before the Sept. 30 deadline. The Senate-passed continuing…",
+      "title": "Watch live: House Dems give remarks amid race to avert shutdown, Iran war turmoil",
+      "url": "https://thehill.com/video-clips/6063178-watch-live-house-democrats-press-conference-key-votes-cr-iran/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 7,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ],
+        "政治政策": [
+          "congress",
+          "senate",
+          "government"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 22:17"
+    },
+    {
+      "source_type": "media",
+      "via": "Fox News",
+      "account": "Fox News",
+      "account_url": "https://www.foxnews.com",
+      "id": "https://www.foxnews.com/world/israel-captures-top-hamas-commander-gaza-strike-defense-minister-says",
+      "created_at": "2026-09-01T14:39:39+00:00",
+      "text": "Israel captures top Hamas commander in Gaza strike, defense minister says\nIsrael Katz says IDF forces captured Hamas security chief Mu'in al-Arabid during a deep raid in Gaza, with airstrikes covering the withdrawal.",
+      "title": "Israel captures top Hamas commander in Gaza strike, defense minister says",
+      "url": "https://www.foxnews.com/world/israel-captures-top-hamas-commander-gaza-strike-defense-minister-says",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 7,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "strike",
+          "airstrike"
+        ],
+        "制裁与地缘": [
+          "israel",
+          "gaza",
+          "hamas"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 22:39"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html",
+      "created_at": "2026-09-01T23:52:21+00:00",
+      "text": "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says\nBessent is leading the Trump administration's plan to choke off Iran's economy by threatening its business partners with secondary sanctions.",
+      "title": "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says",
+      "url": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 7,
+      "groups": [
+        "供需产量",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "供需产量": [
+          "exports"
+        ],
+        "制裁与地缘": [
+          "sanction",
+          "iran"
+        ],
+        "政治政策": [
+          "g20",
+          "g20"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 07:52"
+    },
+    {
+      "source_type": "media",
+      "via": "NPR",
+      "account": "NPR",
+      "account_url": "https://www.npr.org",
+      "id": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war",
+      "created_at": "2026-09-02T06:15:11+00:00",
+      "text": "U.S. military strikes Iran, while Trump vows more for Tehran's retaliation\nThe U.S. military hit targets in Iran on Tuesday and Tehran fired missiles and drones at various sites across the region in response as hostilities flare once again in an intermittent war.",
+      "title": "U.S. military strikes Iran, while Trump vows more for Tehran's retaliation",
+      "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 7,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war",
+          "strike",
+          "missile",
+          "military"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 14:15"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html",
+      "created_at": "2026-09-02T08:51:33+00:00",
+      "text": "Iran says two tankers have hit Hormuz naval mines, attacks regional targets in retaliation to U.S. strikes\nU.S. forces completed another wave of strikes against Iran on Tuesday stateside, hitting multiple Islamic Revolutionary Guard Corps sites across the country.",
+      "title": "Iran says two tankers have hit Hormuz naval mines, attacks regional targets in retaliation to U.S. strikes",
+      "url": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 7,
+      "groups": [
+        "航运油轮",
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "航运油轮": [
+          "tanker"
+        ],
+        "战争冲突": [
+          "strike"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "hormuz"
+        ]
+      },
+      "primary_group": "航运油轮",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 16:51"
+    },
+    {
+      "source_type": "media",
+      "via": "Washington Post",
+      "account": "Washington Post",
+      "account_url": "https://www.washingtonpost.com",
+      "id": "https://www.washingtonpost.com/world/2026/09/02/syria-eyeing-role-middle-east-hub-offers-options-bypass-hormuz/",
+      "created_at": "2026-09-02T09:00:00+00:00",
+      "text": "Syria, eyeing role as Middle East hub, offers options to bypass Hormuz\nThe wartime blockage of cargo traffic in the Strait of Hormuz is a boon for Syria, which is poised to capitalize on a need for alternative transit routes for oil.",
+      "title": "Syria, eyeing role as Middle East hub, offers options to bypass Hormuz",
+      "url": "https://www.washingtonpost.com/world/2026/09/02/syria-eyeing-role-middle-east-hub-offers-options-bypass-hormuz/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 7,
+      "groups": [
+        "供需产量",
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "供需产量": [
+          "cargo"
+        ],
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "hormuz",
+          "syria"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 17:00"
+    },
+    {
+      "source_type": "media",
+      "via": "Washington Post",
+      "account": "Washington Post",
+      "account_url": "https://www.washingtonpost.com",
+      "id": "https://www.washingtonpost.com/national-security/2026/09/01/us-carries-out-new-military-strikes-iran/",
+      "created_at": "2026-09-02T09:43:39+00:00",
+      "text": "Iran retaliates with missiles and drones, defying Trump’s warning\nPresident Donald Trump had warned after Tuesday's U.S. strikes that any retaliation would see Iran “hit again at a much harder and higher level.”",
+      "title": "Iran retaliates with missiles and drones, defying Trump’s warning",
+      "url": "https://www.washingtonpost.com/national-security/2026/09/01/us-carries-out-new-military-strikes-iran/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 7,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war",
+          "strike",
+          "missile"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 17:43"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/senate/6064611-gop-punted-lame-duck-agenda/",
+      "created_at": "2026-09-02T10:00:00+00:00",
+      "text": "Lame-duck agenda balloons as Congress punts priorities until after election\nGOP lawmakers are punting major fights — including government funding, money for the war with Iran and the extension of expanded surveillance authorities — until after the November election, setting up a bloated lame-duck agenda that will be difficult to get done by Christmas. The House on Tuesday overwhelmingly passed a bill to fund the…",
+      "title": "Lame-duck agenda balloons as Congress punts priorities until after election",
+      "url": "https://thehill.com/homenews/senate/6064611-gop-punted-lame-duck-agenda/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 7,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ],
+        "政治政策": [
+          "election",
+          "congress",
+          "government"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 18:00"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/house/6063404-democrats-oppose-ice-shock-gloves/",
+      "created_at": "2026-09-01T15:44:07+00:00",
+      "text": "House Democrats demand answers over ICE’s $16.7M purchase of 6,000 electric shock gloves\nDemocrats on the House Committee on Homeland Security on Monday expressed their “strong opposition” to the Immigration and Customs Enforcement’s (ICE) plans to spend up to $20 million on electric shock gloves for their agents.  ICE awarded a $16.7 million contract with Compliant Technologies LLC for 6,000 of the company’s Generated Low Output Voltage Emitter…",
+      "title": "House Democrats demand answers over ICE’s $16.7M purchase of 6,000 electric shock gloves",
+      "url": "https://thehill.com/homenews/house/6063404-democrats-oppose-ice-shock-gloves/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "供需产量",
+        "需求消费",
+        "战争冲突"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "供需产量": [
+          "output"
+        ],
+        "需求消费": [
+          "demand"
+        ],
+        "战争冲突": [
+          "war"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-01 23:44"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/blogs/in-the-know/6063405-hunter-biden-criticizes-harris/",
+      "created_at": "2026-09-01T17:37:23+00:00",
+      "text": "Hunter Biden says Harris was not ‘loyal to a fault’ to his father\nHunter Biden on Monday said former Vice President Kamala Harris was not “loyal to a fault” to his father, former President Biden. The president’s son sat for an interview in Los Angeles with Zeteo Editor-in-Chief Mehdi Hasan for a wide-ranging conversation about President Biden’s time in office, his handling of the Israel-Hamas war and Harris…",
+      "title": "Hunter Biden says Harris was not ‘loyal to a fault’ to his father",
+      "url": "https://thehill.com/blogs/in-the-know/6063405-hunter-biden-criticizes-harris/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "israel",
+          "hamas"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 01:37"
+    },
+    {
+      "source_type": "media",
+      "via": "Fox News",
+      "account": "Fox News",
+      "account_url": "https://www.foxnews.com",
+      "id": "https://www.foxbusiness.com/politics/bessent-vows-asphyxiate-iran-economically-warns-regimes-offshore-assets-frozen",
+      "created_at": "2026-09-01T17:42:02+00:00",
+      "text": "Bessent vows to 'asphyxiate' Iran economically, warns regime's offshore assets will be frozen\nScott Bessent's economic \"asphyxiation\" campaign targets any bank or entity doing business with Iran, threatening to cut them from the dollar system.",
+      "title": "Bessent vows to 'asphyxiate' Iran economically, warns regime's offshore assets will be frozen",
+      "url": "https://www.foxbusiness.com/politics/bessent-vows-asphyxiate-iran-economically-warns-regimes-offshore-assets-frozen",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ],
+        "经济金融": [
+          "dollar"
+        ],
+        "政治政策": [
+          "regime"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 01:42"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/policy/defense/6063807-us-strikes-irgc-targets-in-iran-in-response-to-attacks-on-american-forces/",
+      "created_at": "2026-09-01T17:44:54+00:00",
+      "text": "US strikes IRGC targets in Iran in response to attacks on American forces\nThe U.S. military struck Islamic Revolutionary Guard Corps (IRGC) targets inside Iran on Tuesday following Tehran’s attacks on U.S. military assets in the region, the U.S. Central Command (Centcom) announced. The fresh round of strikes, which began at noon, came after the IRGC fired one-way attack drones and missiles at the King Hussein and Azraq…",
+      "title": "US strikes IRGC targets in Iran in response to attacks on American forces",
+      "url": "https://thehill.com/policy/defense/6063807-us-strikes-irgc-targets-in-iran-in-response-to-attacks-on-american-forces/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "strike",
+          "missile",
+          "military"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 01:44"
+    },
+    {
+      "source_type": "media",
+      "via": "Fox News",
+      "account": "Fox News",
+      "account_url": "https://www.foxnews.com",
+      "id": "https://www.foxnews.com/world/us-embassies-middle-east-warn-americans-unforeseen-escalation-latest-strikes-hit-iran",
+      "created_at": "2026-09-01T18:10:10+00:00",
+      "text": "US embassies in Middle East warn Americans of 'unforeseen escalation' as latest strikes hit Iran\nMultiple U.S. embassies warned Americans in the Middle East to \"exercise caution and heightened vigilance,\" while CENTCOM launched fresh strikes on Iran.",
+      "title": "US embassies in Middle East warn Americans of 'unforeseen escalation' as latest strikes hit Iran",
+      "url": "https://www.foxnews.com/world/us-embassies-middle-east-warn-americans-unforeseen-escalation-latest-strikes-hit-iran",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war",
+          "strike",
+          "escalat"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 02:10"
+    },
+    {
+      "source_type": "media",
+      "via": "Fox News",
+      "account": "Fox News",
+      "account_url": "https://www.foxnews.com",
+      "id": "https://www.foxnews.com/world/germany-blames-russia-explosive-laden-drone-found-near-ukrainian-cargo-planes-major-airport",
+      "created_at": "2026-09-02T00:33:56+00:00",
+      "text": "Germany blames Russia after explosive-laden drone found near Ukrainian cargo planes at major airport\nGermany closed Russia's Bonn consulate after linking Moscow to a failed drone attack at Leipzig/Halle Airport targeting a Ukrainian cargo aircraft.",
+      "title": "Germany blames Russia after explosive-laden drone found near Ukrainian cargo planes at major airport",
+      "url": "https://www.foxnews.com/world/germany-blames-russia-explosive-laden-drone-found-near-ukrainian-cargo-planes-major-airport",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "供需产量",
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "供需产量": [
+          "cargo"
+        ],
+        "战争冲突": [
+          "drone attack"
+        ],
+        "制裁与地缘": [
+          "russia"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 08:33"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/middle-east/20260902-us-military-striking-targets-in-iran-after-attempted-attacks-on-shipping",
+      "created_at": "2026-09-02T01:38:58+00:00",
+      "text": "Middle East live: Iran launches retaliatory strikes after fresh US bombing kills 11 people\nIranian state media reported Wednesday that US strikes killed 11 people in two separate attacks, including four at a wedding in the country’s south. Iran’s Revolutionary Guards said they have responded by attacking US assets in Kuwait, Bahrain, Jordan and Erbil in Iraqi Kurdistan. Follow our liveblog for the latest developments.",
+      "title": "Middle East live: Iran launches retaliatory strikes after fresh US bombing kills 11 people",
+      "url": "https://www.france24.com/en/middle-east/20260902-us-military-striking-targets-in-iran-after-attempted-attacks-on-shipping",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "strike"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "iranian",
+          "iraq"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 09:38"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/policy/defense/6065153-us-military-strikes-iran-targets/",
+      "created_at": "2026-09-02T02:45:16+00:00",
+      "text": "US launches new strikes against Iran as Trump says he’s ‘not trying to force Iran to the negotiating table’\nThe U.S. military completed a new wave of strikes Tuesday on targets in Iran as the conflict in the region stretches into its seventh month. “U.S. forces struck Islamic Revolutionary Guard Corps (IRGC) targets including air defense sites, radar systems, maritime assets and facilities, mine laying capabilities, and communications sites,” U.S. Central Command (Centcom) wrote…",
+      "title": "US launches new strikes against Iran as Trump says he’s ‘not trying to force Iran to the negotiating table’",
+      "url": "https://thehill.com/policy/defense/6065153-us-military-strikes-iran-targets/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "strike",
+          "military",
+          "conflict"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 10:45"
+    },
+    {
+      "source_type": "media",
+      "via": "NPR",
+      "account": "NPR",
+      "account_url": "https://www.npr.org",
+      "id": "https://www.npr.org/2026/09/02/nx-s1-5953036/putin-signals-support-for-iran-in-ongoing-war-with-the-u-s",
+      "created_at": "2026-09-02T08:41:42+00:00",
+      "text": "Putin signals support for Iran in ongoing war with the U.S.\nRussia's Vladimir Putin is signaling unwavering support for Iran, as Tehran thanks Moscow for backing amid the escalating Middle East war.",
+      "title": "Putin signals support for Iran in ongoing war with the U.S.",
+      "url": "https://www.npr.org/2026/09/02/nx-s1-5953036/putin-signals-support-for-iran-in-ongoing-war-with-the-u-s",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war",
+          "escalat"
+        ],
+        "制裁与地缘": [
+          "russia",
+          "iran"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 16:41"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/video/20260902-the-sky-is-for-drones-zelensky-warns-russian-skies-unsafe-for-airlines",
+      "created_at": "2026-09-02T09:33:48+00:00",
+      "text": "‘The sky is for drones’: Zelensky warns Russian skies unsafe for airlines\nUkraine's President Volodymyr Zelensky warned airlines and insurance companies on Tuesday that the presence of Ukrainian drones had made Russian skies dangerous to use and that they were effectively closed. \"Today, we want to warn ‌every airline that uses Russian airspace, every insurer, everyone who still uses key Russian airports: ⁠the Russian sky is becoming completely dangerous,\" Zelensky said in his nightly video address.",
+      "title": "‘The sky is for drones’: Zelensky warns Russian skies unsafe for airlines",
+      "url": "https://www.france24.com/en/video/20260902-the-sky-is-for-drones-zelensky-warns-russian-skies-unsafe-for-airlines",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "russia",
+          "ukraine"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 17:33"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/analysis/6064555-us-debt-concerns-market-instability/",
+      "created_at": "2026-09-02T10:00:00+00:00",
+      "text": "The Memo: Bond market turmoil heightens midterm risks for Trump and GOP\nTurbulence in the bond markets, fueled primarily by rising anxiety about government debt, is creating one more headwind for President Trump and the GOP as they move toward challenging midterm elections. Bond yields ticked up again on Tuesday, with the yield on the U.S. Treasury 10-year note hitting its highest point since January 2025.  The…",
+      "title": "The Memo: Bond market turmoil heightens midterm risks for Trump and GOP",
+      "url": "https://thehill.com/homenews/analysis/6064555-us-debt-concerns-market-instability/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "经济金融": [
+          "bond yield"
+        ],
+        "政治政策": [
+          "election",
+          "president",
+          "government"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 18:00"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/video/20260902-military-buildup-seen-in-ethiopia-near-sudanese-border",
+      "created_at": "2026-09-02T10:57:17+00:00",
+      "text": "Military buildup seen in Ethiopia near Sudanese border\nA major military buildup has been observed on the Ethiopian side of the Sudanese border. It comes amid intensified fighting between the Sudanese armed forces and the Rapid Support Forces (RSF). Sudan and Ethiopia have both accused each other of supporting rebels within their borders.",
+      "title": "Military buildup seen in Ethiopia near Sudanese border",
+      "url": "https://www.france24.com/en/video/20260902-military-buildup-seen-in-ethiopia-near-sudanese-border",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 6,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "military",
+          "armed",
+          "rebel"
+        ],
+        "制裁与地缘": [
+          "sudan"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 18:57"
+    },
+    {
+      "source_type": "media",
+      "via": "Washington Post",
+      "account": "Washington Post",
+      "account_url": "https://www.washingtonpost.com",
+      "id": "https://www.washingtonpost.com/world/2026/09/02/carney-liberal-party-sweeps-canada-special-elections-amid-trade-war/",
+      "created_at": "2026-09-01T13:20:00+00:00",
+      "text": "Canadian special elections indicate voters backing Carney’s stand against Trump\nPrime Minister Mark Carney had vowed to match U.S. tariffs \"dollar for dollar,\" unlike other longtime U.S. partners who had raced to cut deals when faced with tariff threats.",
+      "title": "Canadian special elections indicate voters backing Carney’s stand against Trump",
+      "url": "https://www.washingtonpost.com/world/2026/09/02/carney-liberal-party-sweeps-canada-special-elections-amid-trade-war/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "制裁与地缘",
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "tariff"
+        ],
+        "经济金融": [
+          "dollar"
+        ],
+        "政治政策": [
+          "election",
+          "prime minister"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 21:20"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6062781-donald-trump-approval-dropping-reuters-ipsos-survey/",
+      "created_at": "2026-09-01T13:22:32+00:00",
+      "text": "Trump approval stuck at lowest level of political career: Survey\nPresident Trump’s approval rating has remained stagnant at the lowest point between his two presidencies, according to a new poll. The latest Reuters/Ipsos survey shows that Trump’s approval rating has remained at 33 percent — the third time the pollsters have found this result — amid the unpopularity of the Iran war and rising prices.…",
+      "title": "Trump approval stuck at lowest level of political career: Survey",
+      "url": "https://thehill.com/homenews/administration/6062781-donald-trump-approval-dropping-reuters-ipsos-survey/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 21:22"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/blogs/in-the-know/6063459-netflix-instadocs-trump-decoy-plane-air-force-one/",
+      "created_at": "2026-09-01T15:45:42+00:00",
+      "text": "Netflix documentary on Trump’s ‘decoy plane’ coming Friday\nPresident Trump’s secret departure on an alternate military aircraft over the summer in Turkey is getting the Netflix documentary treatment. “Instadocs: The Decoy Plane,” premiering Friday on the streamer, will explore how the president was secretly shuttled inside a catering truck to a smaller Air Force C-32A plane in July amid security concerns involving Iran. The documentary…",
+      "title": "Netflix documentary on Trump’s ‘decoy plane’ coming Friday",
+      "url": "https://thehill.com/blogs/in-the-know/6063459-netflix-instadocs-trump-decoy-plane-air-force-one/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "military"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 23:45"
+    },
+    {
+      "source_type": "media",
+      "via": "Fox News",
+      "account": "Fox News",
+      "account_url": "https://www.foxnews.com",
+      "id": "https://www.foxnews.com/world/locals-torch-migrant-shelters-spains-pm-points-blame-beyond-border",
+      "created_at": "2026-09-01T16:03:15+00:00",
+      "text": "Locals torch migrant shelters as Spain's PM points blame beyond the border\nCeuta residents burned migrant shelters as Pedro Sánchez accused Russian and Israeli-linked networks of spreading disinformation that fueled the crisis.",
+      "title": "Locals torch migrant shelters as Spain's PM points blame beyond the border",
+      "url": "https://www.foxnews.com/world/locals-torch-migrant-shelters-spains-pm-points-blame-beyond-border",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "库存炼厂",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "库存炼厂": [
+          "spr"
+        ],
+        "制裁与地缘": [
+          "russia",
+          "israel"
+        ]
+      },
+      "primary_group": "库存炼厂",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 00:03"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/house/6063637-hakeem-jeffries-denounces-loomer-racism/",
+      "created_at": "2026-09-01T17:07:33+00:00",
+      "text": "Hakeem Jeffries calls Laura Loomer a ‘stone-cold racist,’ demands Republicans denounce her\nHouse Minority Leader Hakeem Jeffries (D-N.Y.) went after right-wing influencer Laura Loomer for her rhetoric toward prominent left-leaning Black women in politics including Florida Democratic Senate candidate Angie Nixon and Reps. Ilhan Omar (D-Minn.) and Ayanna Pressley (D-Mass.). “The media will clip my language about @AngieNixon, @IlhanMN, @AyannaPressley, @CoriBush, and [Supreme Court] Justice Ketanji Brown…",
+      "title": "Hakeem Jeffries calls Laura Loomer a ‘stone-cold racist,’ demands Republicans denounce her",
+      "url": "https://thehill.com/homenews/house/6063637-hakeem-jeffries-denounces-loomer-racism/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "需求消费",
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "需求消费": [
+          "demand"
+        ],
+        "战争冲突": [
+          "war"
+        ],
+        "政治政策": [
+          "senate"
+        ]
+      },
+      "primary_group": "需求消费",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 01:07"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/senate/6063890-hegseth-pentagon-leadership-turmoil/",
+      "created_at": "2026-09-01T18:12:26+00:00",
+      "text": "GOP senator ‘disappointed’ over departure of Army secretary who clashed with Hegseth\nSen. Mike Rounds (S.D.), a senior Republican on the Senate Armed Services Committee, said he was “disappointed” to learn of the resignation of Army Secretary Daniel Driscoll and expressed concern about the broader turnover of senior military officers under Secretary of Defense Pete Hegseth. “I was disappointed. I think he’s been a pretty solid guy.…",
+      "title": "GOP senator ‘disappointed’ over departure of Army secretary who clashed with Hegseth",
+      "url": "https://thehill.com/homenews/senate/6063890-hegseth-pentagon-leadership-turmoil/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "military",
+          "armed",
+          "clash"
+        ],
+        "政治政策": [
+          "senate"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 02:12"
+    },
+    {
+      "source_type": "institution",
+      "via": "EU Commission 欧盟委员会",
+      "account": "EU Commission 欧盟委员会",
+      "account_url": "https://commission.europa.eu",
+      "id": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
+      "created_at": "2026-09-01T22:00:00+00:00",
+      "text": "Commission approves German capacity mechanism of up to €35 billion to secure electricity supply\nEuropean Commission Press release Brussels, 02 Sep 2026 The European Commission has approved, under EU State aid rules, a capacity mechanism for Germany available from 2031. This measure, with an estimated cost between €15.6 billion and €35.2 billion, aims to ensure sufficient capacity to produce, store or flexibly consume electricity, so that electricity production can consistently meet expected demand.",
+      "title": "Commission approves German capacity mechanism of up to €35 billion to secure electricity supply",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "区域组织",
+      "tier": "",
+      "score": 5,
+      "groups": [
+        "供需产量",
+        "需求消费"
+      ],
+      "sections": [
+        "A 能源市场"
+      ],
+      "hits": {
+        "供需产量": [
+          "production",
+          "supply"
+        ],
+        "需求消费": [
+          "demand"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 06:00"
+    },
+    {
+      "source_type": "media",
+      "via": "Washington Post",
+      "account": "Washington Post",
+      "account_url": "https://www.washingtonpost.com",
+      "id": "https://www.washingtonpost.com/world/2026/09/01/germany-blames-russia-drone-attack-airport-announces-countermeasures/",
+      "created_at": "2026-09-01T22:23:57+00:00",
+      "text": "Germany blames Russia for drone attack on airport, announces countermeasures\nOfficials said the Aug. 4 attempt was part of a campaign aimed at undermining European support for Ukraine against Russia.",
+      "title": "Germany blames Russia for drone attack on airport, announces countermeasures",
+      "url": "https://www.washingtonpost.com/world/2026/09/01/germany-blames-russia-drone-attack-airport-announces-countermeasures/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "drone attack"
+        ],
+        "制裁与地缘": [
+          "russia",
+          "ukraine"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 06:23"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/asia-pacific/20260902-uss-abraham-lincoln-aircraft-carrier-docks-in-thailand-after-nine-months-at-sea",
+      "created_at": "2026-09-02T02:37:13+00:00",
+      "text": "USS Lincoln carrier docks near Thailand's Pattaya resort after nine months at sea\nMore than 5,000 US sailors and Marines arrived in Thailand Wednesday after nine months at sea on the USS Abraham Lincoln aircraft carrier. The carrier's long deployment in the Middle East during the US-Israeli war on Iran sparked reports of worsening mental health crises on board, including attempted suicides.",
+      "title": "USS Lincoln carrier docks near Thailand's Pattaya resort after nine months at sea",
+      "url": "https://www.france24.com/en/asia-pacific/20260902-uss-abraham-lincoln-aircraft-carrier-docks-in-thailand-after-nine-months-at-sea",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "israel"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 10:37"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html",
+      "created_at": "2026-09-02T07:26:51+00:00",
+      "text": "China's Xi keeps Iranian president at arm's length weeks ahead of Trump summit\nChina's Xi gave Iran's Pezeshkian a brief, low-profile audience at the SCO summit, as Beijing seeks to avoid appearing close to Tehran ahead of a high-stakes summit with Trump.",
+      "title": "China's Xi keeps Iranian president at arm's length weeks ahead of Trump summit",
+      "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "iran",
+          "iranian"
+        ],
+        "政治政策": [
+          "president",
+          "summit"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 15:26"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-news-45381",
+      "created_at": "2026-09-02T08:30:00+00:00",
+      "text": "Pakistan Rejects Costly LNG Cargo as Blackout Risk Deepens\nPakistan may have to extend rolling blackouts after it refused to pay three times the pre-war price for an LNG cargo, which was the only offer its latest emergency tender drew. The single cargo, offered by BP, was priced at $27 per million British thermal units, Bloomberg reported, citing unnamed trading sources. “The international LNG price is around $23.18 per MMBtu, whereas the bid received was $26.969 per MMBtu. The price was considered too high, so a fresh tender has been issued,” a senior",
+      "title": "Pakistan Rejects Costly LNG Cargo as Blackout Risk Deepens",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Rejects-Costly-LNG-Cargo-as-Blackout-Risk-Deepens.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 5,
+      "groups": [
+        "供需产量",
+        "天然气与成品油",
+        "战争冲突"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "供需产量": [
+          "cargo"
+        ],
+        "天然气与成品油": [
+          "lng"
+        ],
+        "战争冲突": [
+          "war"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 16:30"
+    },
+    {
+      "source_type": "media",
+      "via": "NPR",
+      "account": "NPR",
+      "account_url": "https://www.npr.org",
+      "id": "https://www.npr.org/2026/09/02/g-s1-141502/germany-russia-attempted-drone-attack",
+      "created_at": "2026-09-02T08:43:05+00:00",
+      "text": "Germany blames Russia for last month's attempted drone attack at Leipzig airport\nThe German government blamed Russia for an attempted attack at Leipzig airport last month using a drone laden with explosives. It announced that it would shut down a Russian consulate among measures.",
+      "title": "Germany blames Russia for last month's attempted drone attack at Leipzig airport",
+      "url": "https://www.npr.org/2026/09/02/g-s1-141502/germany-russia-attempted-drone-attack",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "drone attack"
+        ],
+        "制裁与地缘": [
+          "russia"
+        ],
+        "政治政策": [
+          "government"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 16:43"
+    },
+    {
+      "source_type": "media",
+      "via": "Washington Post",
+      "account": "Washington Post",
+      "account_url": "https://www.washingtonpost.com",
+      "id": "https://www.washingtonpost.com/world/2026/09/02/russias-jet-powered-drones-are-overwhelming-ukraines-air-defenses/",
+      "created_at": "2026-09-02T09:00:00+00:00",
+      "text": "Russia’s jet-powered drones are overwhelming Ukraine’s air defenses\nRussia is pounding Ukraine with jet-propelled drones, forcing Kyiv to adapt once again in an arms race that is increasingly defining the war.",
+      "title": "Russia’s jet-powered drones are overwhelming Ukraine’s air defenses",
+      "url": "https://www.washingtonpost.com/world/2026/09/02/russias-jet-powered-drones-are-overwhelming-ukraines-air-defenses/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "russia",
+          "ukraine"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 17:00"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/02/ukraine-zelenskyy-airlines-russia-drone-war.html",
+      "created_at": "2026-09-02T09:56:26+00:00",
+      "text": "Zelenskyy says airlines should avoid Russian airspace as Ukraine expands drone operations\nZelenskyy urged airlines to avoid Russian airspace, warning that expanding Ukrainian drone operations are making the skies increasingly unsafe.",
+      "title": "Zelenskyy says airlines should avoid Russian airspace as Ukraine expands drone operations",
+      "url": "https://www.cnbc.com/2026/09/02/ukraine-zelenskyy-airlines-russia-drone-war.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "russia",
+          "ukraine"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 17:56"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6064533-trump-affordability-midterms/",
+      "created_at": "2026-09-02T10:00:00+00:00",
+      "text": "Trump seeks affordability wins down midterm homestretch\nPresident Trump is taking every available avenue in his effort to appeal to voters on affordability as frustrations over high prices and economic uncertainty show no signs of subsiding nine weeks out from the midterms.  Trump met with oil and gas retailers and refineries at the White House as oil prices jumped again amid the…",
+      "title": "Trump seeks affordability wins down midterm homestretch",
+      "url": "https://thehill.com/homenews/administration/6064533-trump-affordability-midterms/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "核心油价",
+        "政治政策"
+      ],
+      "sections": [
+        "A 能源市场",
+        "D 政治政策"
+      ],
+      "hits": {
+        "核心油价": [
+          "oil price"
+        ],
+        "政治政策": [
+          "president",
+          "white house"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 18:00"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/video/20260902-what-we-know-about-alleged-us-strike-on-iran-wedding",
+      "created_at": "2026-09-02T10:10:11+00:00",
+      "text": "What we know about alleged US strike on Iran wedding\nUS forces launched fresh attacks on Iran Tuesday, including one that the Iranian Red Crescent said left four people dead at a wedding celebration, with Tehran vowing \"severe punishment\" for the strikes. France 24's correspondent in Tehran Reza Sayeh has the latest.",
+      "title": "What we know about alleged US strike on Iran wedding",
+      "url": "https://www.france24.com/en/video/20260902-what-we-know-about-alleged-us-strike-on-iran-wedding",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "strike"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "iranian"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 18:10"
+    },
+    {
+      "source_type": "institution",
+      "via": "EU Commission 欧盟委员会",
+      "account": "EU Commission 欧盟委员会",
+      "account_url": "https://commission.europa.eu",
+      "id": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+      "created_at": "2026-09-02T10:28:49+00:00",
+      "text": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte\nEuropean Commission Statement Brussels, 02 Sep 2026 Dear Mark, it is always a pleasure to welcome you.\nWe meet today to discuss Russia's attack in Leipzig. The German government has identified Russia as behind an...",
+      "title": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "区域组织",
+      "tier": "",
+      "score": 5,
+      "groups": [
+        "制裁与地缘",
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "russia"
+        ],
+        "经济金融": [
+          "yen"
+        ],
+        "政治政策": [
+          "president",
+          "government"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 18:28"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/video/20260902-iran-us-accused-of-hitting-wedding-party-in-latest-strikes",
+      "created_at": "2026-09-02T11:11:30+00:00",
+      "text": "Iran: US accused of hitting wedding party in latest strikes\n#Tehran says at least four people were killed and dozens more wounded in a #US strike on a town near in the south of #Iran, near the Strait of #Hormuz.",
+      "title": "Iran: US accused of hitting wedding party in latest strikes",
+      "url": "https://www.france24.com/en/video/20260902-iran-us-accused-of-hitting-wedding-party-in-latest-strikes",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 5,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "strike"
+        ],
+        "制裁与地缘": [
+          "iran",
+          "hormuz"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 19:11"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/house/6062972-data-centers-republicans-trump-burchett/",
+      "created_at": "2026-09-01T13:27:22+00:00",
+      "text": "House Republican pushes back on Trump data center support: ‘I guess I’m backwards and poor’\nGOP Rep. Tim Burchett (Tenn.) responded on Monday to President Trump’s statement that communities that oppose data center construction want to “end up being backwards and poor.” “I guess I’m backwards and poor,” he told MeidasTouch’s Pablo Manríquez on the House steps.  The Tennessee Republican suggested data centers could be built in military installations instead…",
+      "title": "House Republican pushes back on Trump data center support: ‘I guess I’m backwards and poor’",
+      "url": "https://thehill.com/homenews/house/6062972-data-centers-republicans-trump-burchett/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war",
+          "military"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 21:27"
+    },
+    {
+      "source_type": "institution",
+      "via": "EIA 美国能源信息署",
+      "account": "EIA 美国能源信息署",
+      "account_url": "https://www.eia.gov",
+      "id": "https://www.eia.gov/todayinenergy/detail.php?id=",
+      "created_at": "2026-09-01T14:00:00+00:00",
+      "text": "U.S. LNG exports rose 23% in the first half of 2026 because of higher capacity\nU.S. liquefied natural gas (LNG) exports averaged 17.4 billion cubic feet per day (Bcf/d) in the first six months of the year, 23% more than the same period in 2025, according to our Natural Gas Monthly. In our latest Short-Term Energy Outlook, we estimate U.S. LNG exports will average 17.3 Bcf/d in the second half of 2026 (2H26) before rising to 18.7 Bcf/d in 1H27.",
+      "title": "U.S. LNG exports rose 23% in the first half of 2026 because of higher capacity",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "能源组织",
+      "tier": "",
+      "score": 4,
+      "groups": [
+        "供需产量",
+        "天然气与成品油"
+      ],
+      "sections": [
+        "A 能源市场"
+      ],
+      "hits": {
+        "供需产量": [
+          "exports"
+        ],
+        "天然气与成品油": [
+          "natural gas",
+          "lng"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-01 22:00"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/01/fed-governor-barr-says-hell-support-rate-hike-if-inflation-doesnt-ease.html",
+      "created_at": "2026-09-01T14:01:27+00:00",
+      "text": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease\nThe policymaker said he's concerned about \"broader price pressures taking hold\" as inflation has prevailed above the Fed's 2% target.",
+      "title": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
+      "url": "https://www.cnbc.com/2026/09/01/fed-governor-barr-says-hell-support-rate-hike-if-inflation-doesnt-ease.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "经济金融": [
+          "fed ",
+          "rate hike",
+          "inflation"
+        ],
+        "政治政策": [
+          "policy"
+        ]
+      },
+      "primary_group": "经济金融",
+      "primary_section": "C 宏观经济",
+      "local_time": "09-01 22:01"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6063166-trump-proposes-federal-film-tax-incentives/",
+      "created_at": "2026-09-01T14:05:57+00:00",
+      "text": "Trump calls on Congress to pass film and TV tax incentive\nPresident Trump urged Congress on Monday evening to “immediately” approve federal tax incentives for movie and TV production.  In a Truth Social post, the president said he had met earlier in the day with actor Jon Voight and that the pair discussed the movement of film industry jobs out of the U.S. to other countries. …",
+      "title": "Trump calls on Congress to pass film and TV tax incentive",
+      "url": "https://thehill.com/homenews/administration/6063166-trump-proposes-federal-film-tax-incentives/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "供需产量",
+        "政治政策"
+      ],
+      "sections": [
+        "A 能源市场",
+        "D 政治政策"
+      ],
+      "hits": {
+        "供需产量": [
+          "production"
+        ],
+        "政治政策": [
+          "president",
+          "congress"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-01 22:05"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/house/6063361-house-gop-funding-bill-rule-vote/",
+      "created_at": "2026-09-01T15:28:29+00:00",
+      "text": "GOP hard-liners threaten rebellion over stopgap funding bill\nA small group of conservatives in the House of Representatives is threatening to vote against a procedural rule and stymie much of the GOP agenda for the week to protest a Senate-passed government funding bill the lower chamber is set to take up Tuesday. The hard-liners likely can’t block the funding bill itself, which is…",
+      "title": "GOP hard-liners threaten rebellion over stopgap funding bill",
+      "url": "https://thehill.com/homenews/house/6063361-house-gop-funding-bill-rule-vote/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "rebel"
+        ],
+        "政治政策": [
+          "senate",
+          "government"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 23:28"
+    },
+    {
+      "source_type": "media",
+      "via": "Sky News",
+      "account": "Sky News",
+      "account_url": "https://news.sky.com",
+      "id": "https://news.sky.com/story/attempted-drone-attack-at-leipzig-airport-blamed-on-russia-german-government-says-13579937",
+      "created_at": "2026-09-01T15:49:00+00:00",
+      "text": "Attempted drone attack at German airport blamed on Russia\nGermany has blamed Russia for an attempted attack using an explosive-laden drone at Leipzig airport last month.",
+      "title": "Attempted drone attack at German airport blamed on Russia",
+      "url": "https://news.sky.com/story/attempted-drone-attack-at-leipzig-airport-blamed-on-russia-german-government-says-13579937",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "英国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "drone attack"
+        ],
+        "制裁与地缘": [
+          "russia"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 23:49"
+    },
+    {
+      "source_type": "media",
+      "via": "Washington Post",
+      "account": "Washington Post",
+      "account_url": "https://www.washingtonpost.com",
+      "id": "https://www.washingtonpost.com/world/2026/09/01/putin-pledges-support-iran-rallies-leaders-challenge-us/",
+      "created_at": "2026-09-01T17:23:09+00:00",
+      "text": "Putin pledges support to Iran, rallies leaders to challenge U.S.\nA regional security meeting in Kyrgyzstan highlighted the increasingly close military and political alliance between Moscow and Tehran.",
+      "title": "Putin pledges support to Iran, rallies leaders to challenge U.S.",
+      "url": "https://www.washingtonpost.com/world/2026/09/01/putin-pledges-support-iran-rallies-leaders-challenge-us/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "military"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 01:23"
+    },
+    {
+      "source_type": "media",
+      "via": "Fox News",
+      "account": "Fox News",
+      "account_url": "https://www.foxnews.com",
+      "id": "https://www.foxbusiness.com/politics/americas-40t-national-debt-stealing-from-our-next-generation-economist-warns",
+      "created_at": "2026-09-01T18:28:03+00:00",
+      "text": "America's $40T national debt is 'stealing from our next generation,' economist warns\nThe national debt topping $40 trillion and the looming insolvency of Social Security in 2032 require the urgent attention of policymakers to implement reforms, an economist warns.",
+      "title": "America's $40T national debt is 'stealing from our next generation,' economist warns",
+      "url": "https://www.foxbusiness.com/politics/americas-40t-national-debt-stealing-from-our-next-generation-economist-warns",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "经济金融": [
+          "ppi"
+        ],
+        "政治政策": [
+          "policy"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 02:28"
+    },
+    {
+      "source_type": "media",
+      "via": "Fox News",
+      "account": "Fox News",
+      "account_url": "https://www.foxnews.com",
+      "id": "https://www.foxnews.com/world/one-glaring-issue-goes-unaddressed-un-chiefs-high-stakes-talks-irans-president",
+      "created_at": "2026-09-01T19:32:55+00:00",
+      "text": "One glaring issue goes unaddressed in UN chief's high-stakes talks with Iran's president\nAntónio Guterres met Iranian President Masoud Pezeshkian, but a U.N. readout omitted any mention of detained protesters or torture allegations.",
+      "title": "One glaring issue goes unaddressed in UN chief's high-stakes talks with Iran's president",
+      "url": "https://www.foxnews.com/world/one-glaring-issue-goes-unaddressed-un-chiefs-high-stakes-talks-irans-president",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "iran",
+          "iranian"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 03:32"
+    },
+    {
+      "source_type": "media",
+      "via": "OilPrice.com",
+      "account": "OilPrice.com",
+      "account_url": "https://oilprice.com/rss/main",
+      "id": "oilprice-article-45380",
+      "created_at": "2026-09-01T21:00:00+00:00",
+      "text": "EU Struggles to Curb Energy Transition Dependence on China\nIn recent years, the European Union has replaced one critical energy and security vulnerability with another heavy dependence for its green energy ambitions. As the EU has moved to phase out Russian energy imports and reduce the overall dependence on oil and gas, it has rolled out massive renewable energy capacity. But the clean energy transition has become dependent on another global power, which could undermine Europe’s energy security—China.   China Dependence For its renewable energy buildou",
+      "title": "EU Struggles to Curb Energy Transition Dependence on China",
+      "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/EU-Struggles-to-Curb-Energy-Transition-Dependence-on-China.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "聚合",
+      "tier": "backbone",
+      "score": 4,
+      "groups": [
+        "供需产量",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "供需产量": [
+          "imports"
+        ],
+        "制裁与地缘": [
+          "russia"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 05:00"
+    },
+    {
+      "source_type": "media",
+      "via": "Washington Post",
+      "account": "Washington Post",
+      "account_url": "https://www.washingtonpost.com",
+      "id": "https://www.washingtonpost.com/business/2026/09/01/why-trumps-venezuela-oil-deal-will-not-bring-quick-relief-us/",
+      "created_at": "2026-09-01T21:22:18+00:00",
+      "text": "Trump said his deal with Venezuela would lower gas prices. Will it?\nIt is likely to be years before oil production meaningfully ramps up, industry experts say, and there are many risks involved.",
+      "title": "Trump said his deal with Venezuela would lower gas prices. Will it?",
+      "url": "https://www.washingtonpost.com/business/2026/09/01/why-trumps-venezuela-oil-deal-will-not-bring-quick-relief-us/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "供需产量",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "供需产量": [
+          "production"
+        ],
+        "制裁与地缘": [
+          "venezuela"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 05:22"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/tv-shows/a-propos/20260901-subtle-changes-pointing-to-consumer-fatigue-a-challenge-for-fast-fashion-retailers-expert-says",
+      "created_at": "2026-09-01T21:40:54+00:00",
+      "text": "'Subtle changes pointing to consumer fatigue' a challenge for fast-fashion retailers, expert says\nA federation of European textile associations called on Tuesday for an import fee of €10 on fashion imports, the latest effort to stem the flood of ultra-cheap competition mainly from China. Speaking with FRANCE 24's Sharon Gaffney, Dr Sheng Lu, Professor at the Department of Fashion and Apparel Studies at the University of Delaware, says that it remains to be seen just \"to what extent such measures would push groups like Shein to change their business model\", adding that fast-fashion retailers may have to start to contend with \"consumer fatigue\".",
+      "title": "'Subtle changes pointing to consumer fatigue' a challenge for fast-fashion retailers, expert says",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20260901-subtle-changes-pointing-to-consumer-fatigue-a-challenge-for-fast-fashion-retailers-expert-says",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "供需产量",
+        "战争冲突"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "供需产量": [
+          "imports"
+        ],
+        "战争冲突": [
+          "war"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 05:40"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
+      "created_at": "2026-09-01T21:41:15+00:00",
+      "text": "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree\nPalo Alto Networks' stock has nearly doubled this year as AI boosts demand for security detection and response tools",
+      "title": "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
+      "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "库存炼厂",
+        "需求消费"
+      ],
+      "sections": [
+        "A 能源市场"
+      ],
+      "hits": {
+        "库存炼厂": [
+          "spr"
+        ],
+        "需求消费": [
+          "demand"
+        ]
+      },
+      "primary_group": "库存炼厂",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 05:41"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/campaign/6064878-markey-moulton-massachusetts-primary-takeaways/",
+      "created_at": "2026-09-02T03:16:39+00:00",
+      "text": "Markey shrugs off Moulton in generational clash: 3 takeaways from Massachusetts primaries\nSen. Ed Markey (D-Mass.) bucked this cycle’s recent trend of old guard Democrats losing primaries to younger challengers, easily routing his rival in Tuesday’s primary for Senate in Massachusetts.   The race was the latest test of Democrats’ appetite for generational change in Congress – but with a progressive incumbent against a more moderate challenger, it featured a flipped dynamic compared to other high-profile showdowns…",
+      "title": "Markey shrugs off Moulton in generational clash: 3 takeaways from Massachusetts primaries",
+      "url": "https://thehill.com/homenews/campaign/6064878-markey-moulton-massachusetts-primary-takeaways/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "clash"
+        ],
+        "政治政策": [
+          "congress",
+          "senate"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 11:16"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/americas/20260902-us-postal-service-whistleblower-warns-new-system-could-disrupt-midterm-election-voting",
+      "created_at": "2026-09-02T03:48:01+00:00",
+      "text": "US Postal Service whistleblower warns new system could disrupt midterm election voting\nA US Postal Service whistleblower has warned that a new ballot-processing system ordered by President Donald Trump and due to launch Tuesday could prevent millions of Americans from receiving mail ballots ahead of November's midterm elections.",
+      "title": "US Postal Service whistleblower warns new system could disrupt midterm election voting",
+      "url": "https://www.france24.com/en/americas/20260902-us-postal-service-whistleblower-warns-new-system-could-disrupt-midterm-election-voting",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "政治政策": [
+          "election",
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 11:48"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/video/20260902-iran-strikes-back-against-latest-us-attacks-vowing-severe-consequences",
+      "created_at": "2026-09-02T09:08:25+00:00",
+      "text": "Iran strikes back against latest US attacks, vowing ‘severe’ consequences\nIran struck US interests around the Middle East on Wednesday, vowing \"severe\" consequences for renewed American attacks on the Islamic republic, including a US strike it said killed five and wounded dozens of civilians at a wedding.",
+      "title": "Iran strikes back against latest US attacks, vowing ‘severe’ consequences",
+      "url": "https://www.france24.com/en/video/20260902-iran-strikes-back-against-latest-us-attacks-vowing-severe-consequences",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "strike"
+        ],
+        "制裁与地缘": [
+          "iran"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 17:08"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/02/palantir-alex-karp-ukraine-federov-defense-startup.html",
+      "created_at": "2026-09-02T09:30:09+00:00",
+      "text": "Palantir CEO Alex Karp backs ousted Ukraine defense minister's new defense tech startup\nFedorov is launching a defense tech company backed by Palantir CEO Alex Karp, aiming to turn Ukraine’s wartime experience into new technologies.",
+      "title": "Palantir CEO Alex Karp backs ousted Ukraine defense minister's new defense tech startup",
+      "url": "https://www.cnbc.com/2026/09/02/palantir-alex-karp-ukraine-federov-defense-startup.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "制裁与地缘": [
+          "ukraine"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 17:30"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/video/20260902-why-did-russia-target-leipzig-airport-in-alleged-drone-attack",
+      "created_at": "2026-09-02T09:59:21+00:00",
+      "text": "Why did Russia target Leipzig airport in alleged drone attack?\nThe European Union and several individual member states have summoned Russian embassy officials over an attempted drone attack at Leipzig/Halle Airport last month, officials said on ‌Wednesday. Germany said on Tuesday it had concluded that ⁠Russia was responsible for the incident and ordered a series of measures, including the closure of a ‌consulate and a Russian cultural centre in Berlin. France 24's Andrew Hilliar takes a look at why Leipzig might be a target, and what the EU and Germany can do to prevent further incidents.",
+      "title": "Why did Russia target Leipzig airport in alleged drone attack?",
+      "url": "https://www.france24.com/en/video/20260902-why-did-russia-target-leipzig-airport-in-alleged-drone-attack",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "drone attack"
+        ],
+        "制裁与地缘": [
+          "russia"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 17:59"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/opinion/judiciary/6064098-aclu-lawsuit-wrongful-deaths/",
+      "created_at": "2026-09-02T11:00:00+00:00",
+      "text": "Trump’s boat strikes are illegal. Does it matter?\nAn ACLU attorney argues that the Trump administration's boat strikes off the Venezuelan coast are illegal, immoral, and ineffective, citing the deaths of Trinidadian nationals Chad Joseph and Rishi Samaroo as evidence of the campaign's human cost.",
+      "title": "Trump’s boat strikes are illegal. Does it matter?",
+      "url": "https://thehill.com/opinion/judiciary/6064098-aclu-lawsuit-wrongful-deaths/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "战争冲突",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "战争冲突": [
+          "strike"
+        ],
+        "制裁与地缘": [
+          "venezuela"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 19:00"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/02/chevron-venezuela-operations.html",
+      "created_at": "2026-09-02T11:35:38+00:00",
+      "text": "Chevron will expand Venezuela operations, more than doubling production through $7 billion investment\nChevron's announcement comes amid a broader U.S. push to increase oil production in Venezuela.",
+      "title": "Chevron will expand Venezuela operations, more than doubling production through $7 billion investment",
+      "url": "https://www.cnbc.com/2026/09/02/chevron-venezuela-operations.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 4,
+      "groups": [
+        "供需产量",
+        "制裁与地缘"
+      ],
+      "sections": [
+        "A 能源市场",
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "供需产量": [
+          "production"
+        ],
+        "制裁与地缘": [
+          "venezuela"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 19:35"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/opinion/healthcare/6062184-trump-boosts-psychedelic-depression-research/",
+      "created_at": "2026-09-01T12:30:00+00:00",
+      "text": "New reasons not to be depressed about depression\nPresident Trump's administration directed $50 million in federal funding toward accelerating research into psychedelic treatments like psilocybin to help combat the rising number of U.S. adults suffering from treatment-resistant depression.",
+      "title": "New reasons not to be depressed about depression",
+      "url": "https://thehill.com/opinion/healthcare/6062184-trump-boosts-psychedelic-depression-research/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 20:30"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/business/6063247-government-bond-yields-rise/",
+      "created_at": "2026-09-01T14:37:33+00:00",
+      "text": "Global sell-off in government bonds intensifies\nGovernment bond yields rose in numerous countries on Tuesday, with investors selling off amid concerns over inflation and mounting public debts.  The 10-year U.S. Treasury bond yield exceeded 4.7 percent Tuesday morning, marking its highest intraday value since January 2025. The 30-year Treasury bond yield, meanwhile, is still above 5.2 percent. The 30-year yield was…",
+      "title": "Global sell-off in government bonds intensifies",
+      "url": "https://thehill.com/business/6063247-government-bond-yields-rise/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "经济金融": [
+          "inflation",
+          "bond yield"
+        ],
+        "政治政策": [
+          "government"
+        ]
+      },
+      "primary_group": "经济金融",
+      "primary_section": "C 宏观经济",
+      "local_time": "09-01 22:37"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6063040-usps-midterm-voting-risk/",
+      "created_at": "2026-09-01T14:45:17+00:00",
+      "text": "Whistleblower warns of potential Postal Service system failure for midterms\nA whistleblower on Monday warned that the U.S. Postal Service’s computer system is riddled with errors and could jeopardize mail-in voting in the November midterm elections, according to a statement from Sen. Richard Blumenthal (D-Conn.). The individual said the Postal Service has attempted to build a complex system over a three-month time frame, beginning on…",
+      "title": "Whistleblower warns of potential Postal Service system failure for midterms",
+      "url": "https://thehill.com/homenews/administration/6063040-usps-midterm-voting-risk/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "政治政策": [
+          "election"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 22:45"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/house/6063264-ocasio-cortez-data-center-mar-a-lago-florida/",
+      "created_at": "2026-09-01T15:17:13+00:00",
+      "text": "Ocasio-Cortez: ‘Put a data center up in Mar-a-Lago’\nProgressive Rep. Alexandria Ocasio-Cortez (D-N.Y.) quipped Monday that a company should build an AI data center near President Trump’s Mar-a-Lago resort, after he said communities will be “backwards and poor” if they oppose the construction of such facilities. “How about we put one in Mar-a-Lago? I love that. Let’s put a data center up in…",
+      "title": "Ocasio-Cortez: ‘Put a data center up in Mar-a-Lago’",
+      "url": "https://thehill.com/homenews/house/6063264-ocasio-cortez-data-center-mar-a-lago-florida/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 23:17"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6063299-bessent-iranian-economy-collapse/",
+      "created_at": "2026-09-01T15:38:26+00:00",
+      "text": "Bessent: Iran economy could collapse ‘within weeks or months’\nTreasury Secretary Scott Bessent on Monday said Iran’s economy could collapse “within weeks or months,” as the Trump administration seeks to debilitate the Middle Eastern country’s economy. “I think it could be within weeks or months –– and the economy doesn’t have to collapse, we just have to have the regime come to their senses,”…",
+      "title": "Bessent: Iran economy could collapse ‘within weeks or months’",
+      "url": "https://thehill.com/homenews/administration/6063299-bessent-iranian-economy-collapse/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "iran"
+        ],
+        "政治政策": [
+          "regime"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 23:38"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/policy/energy-environment/6063511-new-york-fossil-fuels-climate-change-law/",
+      "created_at": "2026-09-01T15:59:00+00:00",
+      "text": "Court strikes down New York law that sought to hold fossil fuel companies liable for climate change\nA federal court on Monday struck down a New York law that sought to hold fossil fuel companies accountable for climate change. Brenda Sannes, an appointee of former President Obama, ruled that New York’s “Climate Superfund” law is preempted by federal statutes. “The Climate Act is an unusual and sweeping statute, designed to address the effects of…",
+      "title": "Court strikes down New York law that sought to hold fossil fuel companies liable for climate change",
+      "url": "https://thehill.com/policy/energy-environment/6063511-new-york-fossil-fuels-climate-change-law/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "strike"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-01 23:59"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/opinion/congress-blog/6061619-american-caregivers-act-elder-care/",
+      "created_at": "2026-09-01T16:30:00+00:00",
+      "text": "A new answer to America’s growing elder-care challenges\nA common response to America's growing elder-care needs is one we've heard time and again across policy debates: Spend more money the country doesn’t have. But pouring more federal money into a supply-constrained market won't create the plentiful, affordable options families need.",
+      "title": "A new answer to America’s growing elder-care challenges",
+      "url": "https://thehill.com/opinion/congress-blog/6061619-american-caregivers-act-elder-care/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "供需产量",
+        "政治政策"
+      ],
+      "sections": [
+        "A 能源市场",
+        "D 政治政策"
+      ],
+      "hits": {
+        "供需产量": [
+          "supply"
+        ],
+        "政治政策": [
+          "policy"
+        ]
+      },
+      "primary_group": "供需产量",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 00:30"
+    },
+    {
+      "source_type": "media",
+      "via": "Fox News",
+      "account": "Fox News",
+      "account_url": "https://www.foxnews.com",
+      "id": "https://www.foxbusiness.com/politics/meet-man-behind-trumps-joint-venezuela-oil-venture",
+      "created_at": "2026-09-01T17:32:58+00:00",
+      "text": "Meet the man behind Trump's joint Venezuela oil venture\nAlejandro Betancourt, the CEO of North American Blue Energy Partners, has emerged as a central figure in President Donald Trump's landmark oil agreement with Venezuela.",
+      "title": "Meet the man behind Trump's joint Venezuela oil venture",
+      "url": "https://www.foxbusiness.com/politics/meet-man-behind-trumps-joint-venezuela-oil-venture",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "venezuela"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 01:32"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6063924-mapquest-tops-apple-google-maps-in-downloads-after-refusing-trumps-lake-america-change/",
+      "created_at": "2026-09-01T18:33:31+00:00",
+      "text": "MapQuest tops Apple, Google Maps in downloads after refusing Trump’s ‘Lake America’ change\nMapQuest has surged in popularity on the app charts after the mapping service said it would not rename Lake Ontario to “Lake America” after President Trump signed an executive order changing its name. The company said its mobile app received hundreds of thousands of downloads after it announced Thursday that the name Lake Ontario would…",
+      "title": "MapQuest tops Apple, Google Maps in downloads after refusing Trump’s ‘Lake America’ change",
+      "url": "https://thehill.com/homenews/administration/6063924-mapquest-tops-apple-google-maps-in-downloads-after-refusing-trumps-lake-america-change/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "经济金融": [
+          "ppi"
+        ],
+        "政治政策": [
+          "president",
+          "executive order"
+        ]
+      },
+      "primary_group": "经济金融",
+      "primary_section": "C 宏观经济",
+      "local_time": "09-02 02:33"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/policy/energy-environment/6064086-bessent-strait-of-hormuz-worthless/",
+      "created_at": "2026-09-01T20:16:39+00:00",
+      "text": "Bessent predicts Strait of Hormuz will be ‘worthless’ in 2 years\nTreasury Secretary Scott Bessent said Tuesday that the Strait of Hormuz will be “worthless” to the oil industry in two years. Speaking to Fox Business’s Larry Kudlow on the sidelines of the Group of 20 finance ministers’ summit in North Carolina, Bessent argued the key waterway is “not a choke point” for the U.S. In…",
+      "title": "Bessent predicts Strait of Hormuz will be ‘worthless’ in 2 years",
+      "url": "https://thehill.com/policy/energy-environment/6064086-bessent-strait-of-hormuz-worthless/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "hormuz"
+        ],
+        "政治政策": [
+          "summit"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 04:16"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6064544-grand-canyon-flash-flood-missing-hiker/",
+      "created_at": "2026-09-01T21:30:20+00:00",
+      "text": "Border Patrol to join hunt for hiker missing in Grand Canyon flooding\nA specialized Border Patrol team is joining the search for a hiker still missing in the Grand Canyon after a flash flood killed at least two people and forced the evacuation of dozens over the weekend. John Guisti, 46, and Brent Rosenkranz, 42, were both killed in the flooding, their families confirmed Tuesday. They had…",
+      "title": "Border Patrol to join hunt for hiker missing in Grand Canyon flooding",
+      "url": "https://thehill.com/homenews/administration/6064544-grand-canyon-flash-flood-missing-hiker/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "核心油价"
+      ],
+      "sections": [
+        "A 能源市场"
+      ],
+      "hits": {
+        "核心油价": [
+          "brent"
+        ]
+      },
+      "primary_group": "核心油价",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 05:30"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/newsletters/energy-environment/6064628-white-house-unveils-new-details-of-venezuela-agreement/",
+      "created_at": "2026-09-01T21:46:59+00:00",
+      "text": "White House unveils new details of Venezuela agreement\n{beacon} Energy & Environment Energy & Environment   The Big Story  Administration details oil deal with Venezuela The Trump administration unveiled additional details Monday evening about its new oil deal with Venezuela. AP Photo/Ariana Cubillos The Trump administration unveiled additional details Monday evening about its new oil deal with Venezuela.   The administration said in a…",
+      "title": "White House unveils new details of Venezuela agreement",
+      "url": "https://thehill.com/newsletters/energy-environment/6064628-white-house-unveils-new-details-of-venezuela-agreement/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "venezuela"
+        ],
+        "政治政策": [
+          "white house"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 05:46"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/house/6064573-house-censures-chuck-edwards/",
+      "created_at": "2026-09-01T22:15:19+00:00",
+      "text": "House censures North Carolina Republican over allegations of inappropriate behavior with staffers\nHouse lawmakers in both parties came together on Tuesday to censure Rep. Chuck Edwards (R-N.C.) over allegations of inappropriate behavior with female staffers in his office, marking the latest in a string of disciplinary actions against sitting lawmakers this Congress. The vote was 413-2, fueled by a damning Ethics Committee report, released early last month,…",
+      "title": "House censures North Carolina Republican over allegations of inappropriate behavior with staffers",
+      "url": "https://thehill.com/homenews/house/6064573-house-censures-chuck-edwards/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "war"
+        ],
+        "政治政策": [
+          "congress"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 06:15"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6064850-americans-against-lake-america-canada-tariffs/",
+      "created_at": "2026-09-02T00:16:31+00:00",
+      "text": "Majority of Americans against Lake Ontario name change, Canada tariffs: Poll\nA majority of Americans are against President Trump’s recent decisions to rename Lake Ontario to “Lake America” and impose additional tariffs on Canada, a new survey suggests. The Ipsos/Reuters poll, published Tuesday, reported that 63 percent of respondents opposed Lake Ontario’s renaming, while 14 percent supported the decision and 21 percent said they did not…",
+      "title": "Majority of Americans against Lake Ontario name change, Canada tariffs: Poll",
+      "url": "https://thehill.com/homenews/administration/6064850-americans-against-lake-america-canada-tariffs/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "tariff"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 08:16"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/homenews/administration/6064915-haley-vance-israel-tucker-carlson-choose/",
+      "created_at": "2026-09-02T00:20:49+00:00",
+      "text": "Haley tells Vance to ‘choose a side’: Israel or Tucker Carlson\nFormer South Carolina Gov. Nikki Haley accused Vice President Vance Tuesday of not taking a clear stance on Israel — slamming him for trying to “be both.” “Right is right. Wrong is wrong. In life, you must choose a side. You are either with the Tucker Carlson wing of the country or you are with…",
+      "title": "Haley tells Vance to ‘choose a side’: Israel or Tucker Carlson",
+      "url": "https://thehill.com/homenews/administration/6064915-haley-vance-israel-tucker-carlson-choose/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "制裁与地缘",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "israel"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 08:20"
+    },
+    {
+      "source_type": "media",
+      "via": "The Hill",
+      "account": "The Hill",
+      "account_url": "https://thehill.com",
+      "id": "https://thehill.com/policy/defense/6065087-trump-nominates-hung-cao-navy/",
+      "created_at": "2026-09-02T01:40:13+00:00",
+      "text": "President Trump nominates Hung Cao as Navy Secretary\nPresident Trump said on Tuesday he would be nominating Hung Cao for Navy Secretary after the predecessor to the role stepped down in April.  The president announced his pick on Truth Social Tuesday night, saying “We need Patriots like Hung leading our Navy and Marine Corps, and I can think of no one better than…",
+      "title": "President Trump nominates Hung Cao as Navy Secretary",
+      "url": "https://thehill.com/policy/defense/6065087-trump-nominates-hung-cao-navy/",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "战争冲突",
+        "政治政策"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "D 政治政策"
+      ],
+      "hits": {
+        "战争冲突": [
+          "navy"
+        ],
+        "政治政策": [
+          "president"
+        ]
+      },
+      "primary_group": "战争冲突",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 09:40"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/02/australia-gdp-q2-middle-east-rba.html",
+      "created_at": "2026-09-02T03:05:14+00:00",
+      "text": "Australia posts second-quarter growth of 2.1%, beating expectations\nThe GDP print will allow the Reserve Bank of Australia room to go ahead with its policy tightening as it seeks to curb inflation.",
+      "title": "Australia posts second-quarter growth of 2.1%, beating expectations",
+      "url": "https://www.cnbc.com/2026/09/02/australia-gdp-q2-middle-east-rba.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "经济金融",
+        "政治政策"
+      ],
+      "sections": [
+        "C 宏观经济",
+        "D 政治政策"
+      ],
+      "hits": {
+        "经济金融": [
+          "inflation",
+          "gdp"
+        ],
+        "政治政策": [
+          "policy"
+        ]
+      },
+      "primary_group": "经济金融",
+      "primary_section": "C 宏观经济",
+      "local_time": "09-02 11:05"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/americas/20260902-man-accused-of-killing-charlie-kirk-to-face-murder-trial-and-possible-death-penalty",
+      "created_at": "2026-09-02T03:38:52+00:00",
+      "text": "Man accused of killing Charlie Kirk to face murder trial and possible death penalty\nA judge in the US state of Utah has ruled that the man accused of shooting far-right activist Charlie Kirk will face trial for murder. Tyler James Robinson, 23, is accused of fatally shooting Kirk in the neck during a rally at a Utah college campus in September 2025, allegedly because he was 'fed up' with the 'hate' Kirk spread.",
+      "title": "Man accused of killing Charlie Kirk to face murder trial and possible death penalty",
+      "url": "https://www.france24.com/en/americas/20260902-man-accused-of-killing-charlie-kirk-to-face-murder-trial-and-possible-death-penalty",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "库存炼厂",
+        "经济金融"
+      ],
+      "sections": [
+        "A 能源市场",
+        "C 宏观经济"
+      ],
+      "hits": {
+        "库存炼厂": [
+          "spr"
+        ],
+        "经济金融": [
+          "fed "
+        ]
+      },
+      "primary_group": "库存炼厂",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 11:38"
+    },
+    {
+      "source_type": "media",
+      "via": "France 24",
+      "account": "France 24",
+      "account_url": "https://www.france24.com/en",
+      "id": "https://www.france24.com/en/tv-shows/press-review/20260902-who-is-trump-s-venezuela-go-between",
+      "created_at": "2026-09-02T10:22:41+00:00",
+      "text": "Who is Trump's Venezuela go-between?\nPRESS REVIEW – Wednesday, September 2: We look at papers' coverage of the shadowy Venezuelan magnate who brokered the Washington-Caracas oil deal. In other news, the Pacific Islands Forum wants to talk climate change, but China's anger at the presence of Taiwan is stealing the limelight. Finally, the Bayeux Tapestry is back in Britain after nearly a millennium, with perhaps some salacious secrets.",
+      "title": "Who is Trump's Venezuela go-between?",
+      "url": "https://www.france24.com/en/tv-shows/press-review/20260902-who-is-trump-s-venezuela-go-between",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "法国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "制裁与地缘"
+      ],
+      "sections": [
+        "B 战争与地缘"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "venezuela",
+          "taiwan"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 18:22"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/02/bank-canada-rate-decision-trump-tariffs.html",
+      "created_at": "2026-09-02T10:29:51+00:00",
+      "text": "Bank of Canada mulls Trump tariff shock as it readies interest rates decision\nThe U.S.-Canada trade dispute and the descent into a retaliatory tariff blitz have complicated the job for the Bank of Canada ahead of its Wednesday decision.",
+      "title": "Bank of Canada mulls Trump tariff shock as it readies interest rates decision",
+      "url": "https://www.cnbc.com/2026/09/02/bank-canada-rate-decision-trump-tariffs.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "制裁与地缘",
+        "经济金融"
+      ],
+      "sections": [
+        "B 战争与地缘",
+        "C 宏观经济"
+      ],
+      "hits": {
+        "制裁与地缘": [
+          "tariff"
+        ],
+        "经济金融": [
+          "interest rate"
+        ]
+      },
+      "primary_group": "制裁与地缘",
+      "primary_section": "B 战争与地缘",
+      "local_time": "09-02 18:29"
+    },
+    {
+      "source_type": "media",
+      "via": "CNBC",
+      "account": "CNBC",
+      "account_url": "https://www.cnbc.com",
+      "id": "https://www.cnbc.com/2026/09/02/demand-for-riskier-mortgages-rises-along-with-interest-rates.html",
+      "created_at": "2026-09-02T11:00:01+00:00",
+      "text": "Demand for riskier mortgages rises along with interest rates\nMortgage rates continue to rise, pushing some buyers to riskier, adjustable-rate loans in order to find savings. Rates are at the highest level since June 2025.",
+      "title": "Demand for riskier mortgages rises along with interest rates",
+      "url": "https://www.cnbc.com/2026/09/02/demand-for-riskier-mortgages-rises-along-with-interest-rates.html",
+      "lang": null,
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "region": "美国",
+      "tier": "top30",
+      "score": 3,
+      "groups": [
+        "需求消费",
+        "经济金融"
+      ],
+      "sections": [
+        "A 能源市场",
+        "C 宏观经济"
+      ],
+      "hits": {
+        "需求消费": [
+          "demand"
+        ],
+        "经济金融": [
+          "interest rate"
+        ]
+      },
+      "primary_group": "需求消费",
+      "primary_section": "A 能源市场",
+      "local_time": "09-02 19:00"
+    }
+  ]
+}
